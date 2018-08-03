@@ -1,7 +1,9 @@
-# Git Commands
+# Check this app working here -
+https://react-job-portal-app.herokuapp.com/
 
-git init - Create a new git repo
-git status - View the changes to your project code
-git add - Add files to staging area
-git commit - Creates a new commit with files from staging area
-git log - View recent commits
+# Features:
+
+- Register User
+- Login with Google
+- Apply to a Job or Create a new one
+- Logout

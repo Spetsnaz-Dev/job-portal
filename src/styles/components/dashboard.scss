@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.header__main {
+  color: black;
+  font-family: 'Lobster', cursive;
+}
+.header__subtitle {
+  color: dimgray;
+}
+.btn {
+  display: inline-flex;
+  justify-content: center;
+  width: 15rem;
+  background-color: #ff7e7e;
+  margin: 0 0 2rem 2rem;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 18px;
+  border: none;
+}
+.wrapper {
+  padding: 0 0 1rem 4rem;
+}
+.job__heading {
+  color: purple;
+  font-size: $font-size-large;
+  text-decoration: none;
+}
+.description {
+  color: black;
+}
+.apply__form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 4rem;
+}
+.apply__form > input {
+  background-color: transparent;
+  padding: 3rem;
+  font-size: 2rem;
+  border-radius: 20px;
+
+  .btn-padding {
+    margin-top: 3rem !important;
+  }
+}
+.input__apply {
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid black;
+  height: 4rem;
+  display: flex;
+  font-size: 20px;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 10px;
+  font-family: 'Raleway', sans-serif;
+}
